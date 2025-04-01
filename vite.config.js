@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base:'/frontend',
+  base:'https://hari230.github.io/frontend/',
   build: {
     outDir: 'build',  // Set the output directory to 'build'
   },
