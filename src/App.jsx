@@ -4,7 +4,7 @@ import Signup from "./components/signup";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/frontend">
      <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
