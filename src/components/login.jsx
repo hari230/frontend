@@ -59,19 +59,11 @@ const Login = () => {
         </p>
       </form>
       {token ? (
-        <p className="mt-2 text-green-500">Login Successfully</p>
+        <p className="mt-2 text-green-500 text-center">Login Successfully</p>
       ) : (
-         error && <p className="mt-2 text-red-500">Invalid Credentials</p>
+         error && <p className="mt-2 text-red-500 text-center">Invalid Credentials</p>
       )}
     </div>
-
-    
-    {/* {
-      error && <p className="text-red-500 ">{error}</p>
-    }
-    { 
-  result && <p className="text-green-600">{result}</p>
-} */}
     </>
   );
 };
