@@ -4,12 +4,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/frontend/auth/',
   plugins: [
     react(),
     tailwindcss(),
   ],
-  base:'/frontend/auth/',
-  build: {
-    outDir: 'build',  // Set the output directory to 'build'
-  },
 });
