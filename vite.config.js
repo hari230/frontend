@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base:'/frontend/auth/login',
+  base:'/frontend/auth/',
   build: {
     outDir: 'build',  // Set the output directory to 'build'
   },
