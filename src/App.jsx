@@ -1,15 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./components/login";
-import Signup from "./components/signup";
+// App.js
+import React from 'react';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Signup from './Signup';
+import Login from './Login';
 
 const App = () => {
   return (
-    <BrowserRouter>
-     <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+    <Router>
+      <Routes>
+        <Route path="/auth/login" element={<Login />} />
+        <Route path="/auth/signup" element={<Signup />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 };
 
