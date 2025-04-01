@@ -2,7 +2,7 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Signup from './signup';
-import Login from './sogin';
+import Login from './login';
 
 const App = () => {
   return (
