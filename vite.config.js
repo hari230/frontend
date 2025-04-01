@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base:'/frontend',
   build: {
     outDir: 'build',  // Set the output directory to 'build'
   },
